@@ -1,0 +1,15 @@
+body {
+  line-height: 1.5em;
+}
+
+h1 {
+  font-family: 'Style Script', cursive;
+}
+
+h2 {
+  font-style: italic;
+}
+
+h2, p {
+  font-family: 'Space Grotesk', sans-serif;
+}
