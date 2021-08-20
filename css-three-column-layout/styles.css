@@ -1,0 +1,49 @@
+* {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  background-color: rgb(20, 125, 223);
+}
+
+img {
+  width: 60%;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 35px auto;
+}
+
+.row {
+  display: flex;
+}
+
+.full-column {
+  width: 100%;
+  text-align: center;
+}
+
+.one-third {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: calc(100% / 3);
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+}
