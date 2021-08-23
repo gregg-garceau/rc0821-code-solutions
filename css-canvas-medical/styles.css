@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 25px 175px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+  background-color: rgb(252, 246, 246);
+  padding: 3%;
+}
+
+.two-column {
+  background-color: rgb(252, 246, 246);
+  width: 50%;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.hero {
+  width: 75%;
+}
+
+.locations {
+  color: gray;
+  margin: 6%;
+}
+
+.tiempos-font {
+  font-family: 'Tiempos Headline', Arial, Helvetica, sans-serif;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+  width: 75%;
+  height: 100%;
+}
+
+.bottom-box {
+  display: flex;
+  background-color: darkslategray;
+  padding: 8% 5%;
+}
+
+.body-text {
+  color: gray;
+  padding: 0 30%;
+  margin: 2%;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.bottom-list {
+  list-style-type: none;
+  color: white;
+}
+
+ul.bottom-list > lh {
+  margin: 6%;
+}
+
+ul.bottom-list > li {
+  margin: 6%;
+}
+
+.spaced-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4% 0;
+}
+
+.learn-more-bar {
+  margin: 2%;
+}
+
+.ready {
+  color: gray;
+  width: 50%;
+}
+
+.hero-head {
+  margin-bottom: 15px;
+}
+
+.text-hero {
+  letter-spacing: 2px;
+  color: white;
+  padding-left: 75px;
+  padding-right: 500px;
+}
+
+.logo-nav {
+  width: 50%;
+  padding: 20px;
+}
+
+.logo-nav-white {
+  padding-bottom: 15%;
+  width: 50%;
+}
+
+.address {
+  line-height: 1.8;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+  position: relative;
+}
+
+.contact-box {
+  background-color: rgb(41,68,100);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.company-address {
+  color: white;
+  flex-basis: 25%;
+}
+
+.footer-list {
+  flex-basis: 25%;
+}
+
+.blank-box {
+  flex-basis: 25%;
+}
+
+.get-started-box {
+  margin-top: 40px;
+}
+
+.get-started-button {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(41,68,100);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 35px;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+
+.nav-list {
+  list-style-type: none;
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  color: silver;
+  text-decoration: none;
+}
+
+ .navbar a.contact-box:hover {
+  color: white;
+}
+
+.navbar a:hover {
+  color: rgb(41,68,100);
+}
