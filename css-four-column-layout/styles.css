@@ -1,0 +1,41 @@
+* {
+  font-family: "Barlow", Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+.container {
+  margin: 0% 10%;
+}
+
+.row {
+  display: flex;
+}
+
+.how-it-works {
+  font-size: 200%;
+}
+
+.full-column {
+  width: 100%;
+  text-align: center;
+}
+
+.four-column {
+  width: 25%;
+  text-align: center;
+}
+
+.screen {
+  width: 100%;
+}
+
+.icon {
+  width: 25%;
+}
+
+.para-text {
+  padding: 5%;
+}
