@@ -57,5 +57,3 @@ var orderHistory = [
     returnWindow: 'Aug 4, 2020'
   }
 ];
-
-console.log(orderHistory[3].items[0].electronics);
