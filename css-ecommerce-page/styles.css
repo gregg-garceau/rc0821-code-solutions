@@ -1,0 +1,94 @@
+* {
+  font-family: 'DM Sans', Arial, Helvetica, sans-serif;
+}
+
+p {
+  display: inline-block;
+}
+
+image {
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 300px;
+}
+
+.container {
+  margin: 1% 5%;
+}
+
+.row {
+  display: flex;
+}
+
+.full-column {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.five-column {
+  width: 20%;
+}
+
+.brand {
+  border-right: 1px solid lightgray;
+  padding-right: 2%;
+}
+
+.size {
+  color: lightgray;
+}
+
+.brand,
+.size {
+  margin-bottom: 0;
+}
+
+.peach-highlight {
+  background-color: oldlace;
+}
+
+.old-price {
+  color: lightgray;
+}
+
+.item-image-free {
+  background-image: url(images/dress1.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 330px;
+}
+
+.item-image-yves {
+  background-image: url(images/ysl-bag.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 330px;
+}
+
+.item-image-tiffany {
+  background-image: url(images/key.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 330px;
+}
+
+.item-image-louis {
+  background-image: url(images/lv-bag.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 330px;
+}
+
+.item-image-reform {
+  background-image: url(images/dress2.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 330px;
+}
