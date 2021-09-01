@@ -1,0 +1,23 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  font-size: xx-large;
+}
+
+.row {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.green-text {
+  color: rgb(0, 206, 0);
+}
+
+.red-text {
+  color: red;
+}
+
+.underline {
+  border-bottom: 3px solid;
+}
