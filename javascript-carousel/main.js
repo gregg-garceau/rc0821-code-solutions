@@ -1,7 +1,7 @@
 var imageIndex = 1;
 var imageTimer = null;
 var images = document.querySelectorAll('.carousel-image');
-var dots = document.querySelectorAll('.dot');
+var allDots = document.querySelectorAll('.dot');
 var dotContainer = document.querySelector('.dots');
 var next = document.querySelector('.next');
 var prev = document.querySelector('.prev');
@@ -45,10 +45,10 @@ function showImages(num) {
   for (let i = 0; i < images.length; i++) {
     images[i].classList.add('hidden');
   }
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].classList.remove('show');
+  for (let i = 0; i < allDots.length; i++) {
+    allDots[i].classList.remove('show');
   }
   images[imageIndex - 1].classList.remove('hidden');
-  dots[imageIndex - 1].classList.add('show');
+  allDots[imageIndex - 1].classList.add('show');
   imageTimer = setTimeout(showImages, 3000);
 }
