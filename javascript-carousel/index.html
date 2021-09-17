@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Carousel</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="navigation">
+      <div class="prev nav-btn">
+        <i class="fas fa-chevron-left fa-3x"></i>
+      </div>
+      <div class="next nav-btn">
+        <i class="fas fa-chevron-right fa-3x"></i>
+      </div>
+    </div>
+    <div class="carousel">
+      <div class="carousel-image">
+        <img src="images/001.png">
+      </div>
+      <div class="carousel-image hidden">
+        <img src="images/004.png">
+      </div>
+      <div class="carousel-image hidden">
+        <img src="images/007.png">
+      </div>
+      <div class="carousel-image hidden">
+        <img src="images/025.png">
+      </div>
+      <div class="carousel-image hidden">
+        <img src="images/039.png">
+      </div>
+    </div>
+  </div>
+  <div class="dots">
+    <span class="dot" data-num="1"></span>
+    <span class="dot" data-num="2"></span>
+    <span class="dot" data-num="3"></span>
+    <span class="dot" data-num="4"></span>
+    <span class="dot" data-num="5"></span>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
