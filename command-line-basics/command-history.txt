@@ -1,0 +1,410 @@
+    1  exit
+    2  whoami
+    3  git config --global user.name "Gregg Garceau"
+    4  git config --global user.email "ggarceau212@gmail.com"
+    5  git config --global --list
+    6  exit
+    7  git config --global --list
+    8  exit
+    9  cd repos/
+   10  cd rc0821-code-solutions/
+   11  cd/
+   12  cd /
+   13  cd ~
+   14  cd ~/repos/rc0821-code-solutions
+   15  cd ~
+   16  exit
+   17  cd ~/repos/rc0821-code-solutions
+   18  exit
+   19  cd ~/repos/rc0821-code-solutions
+   20  git status
+   21  git branch javascript-carousel
+   22  git switch javascript-carousel
+   23  git add javascript-carousel
+   24  git status
+   25  git commit -m "Completed javascript-carousel challenge"
+   26  git push origin javascript-carousel
+   27  git status
+   28  exit
+   29  cat ~/.ssh/config
+   30  cd .ssh
+   31  ls
+   32  nano config
+   33  cd ~/repos
+   34  cd rc0821-code-solutions/
+   35  git status
+   36  git add -u
+   37  git commit -m "Completed javascript carousel challenge"
+   38  git push origin javascript-carousel
+   39  nano ~/.ssh/config
+   40  git push origin javascript-carousel
+   41  git remote -v
+   42  nano ~/.ssh/config
+   43  git push origin javascript-carousel
+   44  exit
+   45  cd ~/repos/rc0821-code-solutions/
+   46  git status
+   47  git push origin javascript-carousel
+   48  cat ~/.ssh/github_rsa.pub
+   49  git push origin javascript-carousel
+   50  git switch master
+   51  exit
+   52  clear
+   53  http http://www.example.com
+   54  clear
+   55  http --verbose http://www.example.com
+   56  clear
+   57  cd ~/repos/rc0821-code-solutions/
+   58  git switch master
+   59  git branch http-messages
+   60  git switch http-messages
+   61  git switch master
+   62  git branch -d http-messages
+   63  /http-messages
+   64  http-messages/
+   65  ls
+   66  /http-messages/
+   67  cd http-messages/
+   68  git branch http-messages
+   69  git switch http-messages
+   70  http GET https://jsonplaceholder.typicode.com/users > user.json
+   71  http GET https://example.com > index.html
+   72  cd ..
+   73  git status
+   74  git add http-messages
+   75  git status
+   76  git commit -m "Completed http-messages exercise"
+   77  git push origin http-messages
+   78  git switch master
+   79  git switch http-messages
+   80  git switch master
+   81  git pull
+   82  git status
+   83  git pull
+   84  git branch javascript-ajax
+   85  git switch javascript-ajax
+   86  git status
+   87  git add javascript-ajax
+   88  git commit -m "Completed javascript-ajax exercise"
+   89  git push origin javascript-ajax
+   90  git switch master
+   91  git pull
+   92  exit
+   93  http https://pokeapi.co/api/v2/pokemon?limit=151%27
+   94  exit
+   95  http https://pokeapi.co/api/v2/pokemon?limit=151
+   96  exit
+   97  cd ~/repos
+   98  git clone git@github.com:gregg-garceau/ajax-project.git
+   99  cd ajax-project
+  100  npm ci
+  101  git branch issue-1-view-pokedex
+  102  git switch issue-1-view-pokedex
+  103  git status
+  104  git add issue-1-view-pokedex
+  105  git add -u
+  106  git status
+  107  git commit -m "Added header, gen nav, and pokedex base"
+  108  git push origin issue-1-view-pokedex
+  109  git status
+  110  git add -u
+  111  git commit -m "Added both screens to pokedex"
+  112  git push origin issue-1-view-pokedex
+  113  git status
+  114  git add -u
+  115  git commit -m "Added dots to top of the pokedex"
+  116  git push origin .main-dot {
+  117  }
+  118  git push origin issue-1-view-pokedex
+  119  git status
+  120  git add -u
+  121  git commit -m "Added prev and next nav buttons for right side"
+  122  git push origin issue-1-view-pokedex
+  123  git status
+  124  git add -u
+  125  git commit -m "Added some mobile responsiveness to header and nav"
+  126  git push origin issue-1-view-pokedex
+  127  git status
+  128  git add -u
+  129  git commit -m "Added image div for pokemon image"
+  130  git push origin issue-1-view-pokedex
+  131  git status
+  132  git add -u 
+  133  git commit -m "Completed pokedex view feature"
+  134  git push origin issue-1-view-pokedex
+  135  git switch master
+  136  git pull
+  137  git branch issue-2-pokemon-list
+  138  git switch issue-2-pokemon-list
+  139  git status
+  140  git add -u
+  141  git commit -m "User can start to view pokemon from right side of screen"
+  142  git commit -m "User can start to view pokemon names on right side" --no-verify
+  143  git push origin issue-2-pokemon-list
+  144  git switch master
+  145  cd ~/repos/portfolio
+  146  git status
+  147  git add -u
+  148  git status
+  149  git commit -m "Changed profile picture"
+  150  git push origin 
+  151  cd ~/repos/ajax-project
+  152  exit
+  153  cd ~/repos/ajax-project
+  154  git pull
+  155  git branch issue-3-next-prev-button
+  156  git switch issue-3-next-prev-button
+  157  git status
+  158  git add -u 
+  159  git commit -m "Deleted data.js, added event listeners, added css colors"
+  160  git commit -m "Added event listeners, added css type colors, changed gen header" --no-verify
+  161  git push origin issue-3-next-prev-button
+  162  git status
+  163  git add -u
+  164  git status
+  165  git add js/data.js
+  166  git status
+  167  git commit -m "Added background image, function to use prev next button, header size"
+  168  git commit -m "Added bg image, prev/next button functionality, some styling changes" --no-verify
+  169  git push origin issue-3-next-prev-button
+  170  git switch master
+  171  git pull
+  172  git branch issue-4-view-entry
+  173  git switch issue-4-view-entry
+  174  git status
+  175  git commit -m "Added function getPokemon to retrieve specfici pokemon data" --no-verify
+  176  git add -u
+  177  git commit -m "Added getpokemon function to get specific pokemon data" --no-verify
+  178  git push origin issue-4-view-entry
+  179  git status
+  180  git add -u
+  181  git commit -m "Img, textcontent, color of type changes with different pokemon"
+  182  git push origin issue-4-view-entry
+  183  git status
+  184  git add -u
+  185  git commit -m "Changed type check to make sure pokemon has second type"
+  186  git push origin issue-4-view-entry
+  187  git switch master
+  188  git pull 
+  189  git pull
+  190  git branch issue-5-view-specific-pokemon
+  191  git switch issue-5-view-specific-pokemon
+  192  git status
+  193  git add -u
+  194  git commit -m "Added on and off button to hide/show screen" 
+  195  git push origin issue-5-view-specific-pokemon
+  196  git status
+  197  git add -u
+  198  git commit "Clicking pokemon from list shows that specific pokemon"
+  199  git commit -m "Clicking pokemon from list shows specific pokemon stats"
+  200  git push origin issue-5-view-specific-pokemon
+  201  git switch master
+  202  git pull
+  203  git branch issue-6-fix-bugs
+  204  git switch issue-6-fix-bugs
+  205  git add -u
+  206  git commit -m "Fixed bugs, cleaned up styling, removed back image"
+  207  git push origin issue-6-fix-bugs
+  208  git switch
+  209  git switch master
+  210  git pull
+  211  git status
+  212  git commit -m "Put top div on side of divs"
+  213  git add -u
+  214  git commit -m "Changed style of divs"
+  215  git push origin
+  216  git status
+  217  git add -u
+  218  git commit -m "Created breakpoints for smaller desktop screens/tablets"
+  219  git push origin
+  220  exit
+  221  cd ~/repos/ajax-projecy
+  222  cd ~/repos/ajax-project
+  223  git add -u
+  224  git commit
+  225  git push origin
+  226  exit
+  227  cd ~/repos/ajax-project
+  228  git add -u
+  229  git commit -m "Changed type font"
+  230  git push origin
+  231  exit
+  232  cd ~/repos/ajax-project
+  233  git add -u
+  234  git commit -m "Changed button background color"
+  235  git push origin
+  236  exit
+  237  cd ~/repos/ajax-project
+  238  git add -u
+  239  git commit -m "Fixed shadow on type text"
+  240  git push origin
+  241  git status
+  242  git add -u
+  243  git commit -m "Changed font on type for mobile view"
+  244  git push origin
+  245  exit
+  246  cd ~/repos/ajax-project
+  247  git add -u
+  248  git commit -m "Fixed styling on prev and next buttons"
+  249  git push origin
+  250  exit
+  251  cd ~/repos
+  252  git clone git@github.com:gregg-garceau/concert-connection.git
+  253  cd ~/repos/concert-connection
+  254  exit
+  255  cd ~/repos/ajax-project
+  256  git status
+  257  git add -u
+  258  git commit -m "added github and linked in icon, header and search bar
+  259  "
+  260  git push origin
+  261  git pull
+  262  git status
+  263  git push origin
+  264  git pull
+  265  exit
+  266  cd ~/repos/ajax-project
+  267  git status
+  268  git add -u
+  269  git commit -m "Changed header font for responsiveness"
+  270  git push origin
+  271  exit
+  272  cd ~/repos/ajax-project
+  273  git status
+  274  git add -u
+  275  git commit -m "Changed type font to fit screen"
+  276  git push origin
+  277  exit
+  278  cd ~/repos/ajax-project
+  279  git status
+  280  git add -u
+  281  git commit -m "Changed header font"
+  282  git push origin
+  283  exit
+  284  git status
+  285  cd ~/repos/ajax-project
+  286  git add -u
+  287  git commit -m "Changed button font size"
+  288  git push origin
+  289  exit
+  290  cd ~/repos/ajax-project
+  291  git status
+  292  git add -u 
+  293  git commit -m "Changed nav bar, added search bar text"
+  294  git push origin
+  295  exit
+  296  cd ~/repos/ajax-project
+  297  git add -u
+  298  git commit -m "Changed mobile header font"
+  299  git push origin
+  300  exit
+  301  cd ~/repos/ajax-project
+  302  git add -u
+  303  git commit -m "Changed position and font of search bar"
+  304  git push origin
+  305  exit
+  306  cd ~/repos/ajax-project
+  307  git add -u
+  308  git commit -m "Changed breakpoints"
+  309  git push origin
+  310  exit
+  311  cd ~/repos/ajax-project
+  312  git add -u
+  313  git commit -m "added loading screens to pokemon view and list"
+  314  git push origin
+  315  exit
+  316  git status
+  317  cd ~/repos/rc0821-code-solutions
+  318  git status
+  319  git branch es6-const-let
+  320  git switch es6-const-let
+  321  git status
+  322  git add -u
+  323  git status
+  324  git add es6-const-let
+  325  git status
+  326  git commit -m "Completed es6-const-let exercise"
+  327  git push origin
+  328  git push origin es6-const-let
+  329  git switch master
+  330  git pull
+  331  git status
+  332  git branch es6-template-literals
+  333  git switch es6-template-literals
+  334  git add es6-template-literals
+  335  git commit -m "Completed es6-template-literals exercise"
+  336  git push es6-template-literals
+  337  git status
+  338  git push origin
+  339  git push origin es6-template-literals
+  340  git switch
+  341  git switch master
+  342  git switch
+  343  git switch es6-template-literals
+  344  git switch master
+  345  git pull
+  346  git status
+  347  git branch es6-destructuring
+  348  git switch es6-destructuring
+  349  git add es6-destructuring
+  350  git commit "Compelted es6-destructuring exercise"
+  351  git commit -m "Completed es6-destructuring exercise"
+  352  git push origin es6-destructuring
+  353  git switch master
+  354  git pull
+  355  git status
+  356  git branch es6-arrow-functions
+  357  git switch es6-arrow-functions
+  358  git add es6-arrow-functions
+  359  git commit -m "Completed es6-arrow-functions exercise"
+  360  git push origin es6-arrow-functions
+  361  git switch master
+  362  cd command-line-basics
+  363  pwd
+  364  man cat
+  365  cat laziness.txt
+  366  cat impatience.txt
+  367  cat hubris.txt
+  368  man cat
+  369  cat laziness.txt impatience.txt hubris.txt
+  370  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  371  cat three-virtues.txt
+  372  man ls
+  373  ls
+  374  ls -a
+  375  ls -F
+  376  ls lfz-staff/
+  377  lfz-staff/ -a
+  378  ls -F lfz-staff/
+  379  ls -a lfz-staff/
+  380  ls -aF lfz-staff > lfz-staff/contents.txt
+  381  cat lfz-staff/contents.txt
+  382  pwd
+  383  pwd > i-was-here.txt
+  384  ls
+  385  cat i-was-here.txt
+  386  echo 'Hello, World!'
+  387  echo 'Hello, World!' > hello.txt
+  388  ls
+  389  cat hello.txt
+  390  touch tag-youre-it.txt
+  391  ls
+  392  touch boop.txt > snoot/
+  393  touch snoot/boop.txt
+  394  mkdir parent
+  395  ls
+  396  mkdir -p parent/child/grandchild
+  397  touch parent/child/grandchild/.gitkeep
+  398  mv pokiemans pokemon
+  399  ls
+  400  rm lol.txt
+  401  ls
+  402  rm -r kill-me/
+  403  ls
+  404  cp and-then.txt no-and-then.txt
+  405  ls
+  406  cat and-then-txt
+  407  cat and-then.txt
+  408  cat no-and-then.txt
+  409  history
+  410  history > command-history.txt
