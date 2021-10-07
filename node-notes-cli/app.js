@@ -2,7 +2,7 @@ const data = require('./data.json');
 const fs = require('fs');
 
 const { notes } = data;
-const input = process.argv[2].toLowerCase();
+const userInput = process.argv[2].toLowerCase();
 
 const userRead = () => {
 
@@ -67,13 +67,13 @@ const userUpdate = () => {
 
 };
 
-if (input === 'read') {
+if (userInput === 'read') {
   userRead();
-} else if (input === 'add') {
+} else if (userInput === 'add') {
   userAdd();
-} else if (input === 'delete') {
+} else if (userInput === 'delete') {
   userDelete();
-} else if (input === 'update') {
+} else if (userInput === 'update') {
   userUpdate();
 } else {
   console.log('Please type a valid command!');
