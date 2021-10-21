@@ -1,0 +1,21 @@
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
