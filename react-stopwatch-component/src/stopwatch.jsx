@@ -14,9 +14,11 @@ class Stopwatch extends React.Component {
   handleTimer() {
     if (!this.state.isOn) {
       this.setState({ isOn: true });
-      this.interval = setInterval(this.tick(), 1000);
+      this.interval = setInterval(() => {
+        this.tick();
+      }, 1000);
     } else {
-      this.setState({ isPaused: true });
+      this.setState({ isOn: false });
       clearInterval(this.interval);
     }
   }
@@ -26,7 +28,7 @@ class Stopwatch extends React.Component {
   }
 
   handleReset() {
-    if (this.state.isPaused) {
+    if (!this.state.isOn) {
       this.setState({
         time: 0
       });
@@ -45,9 +47,9 @@ class Stopwatch extends React.Component {
 
   render() {
     return (
-      <div className='flex-col'>
+      <div className='watch-cont'>
         <div className='clock' onClick={this.handleReset}>
-          {this.time()}
+          <h1>{this.time()}</h1>
         </div>
         <div className='button-container'>
           <i className={this.changeButton()} onClick={this.handleTimer}></i>
