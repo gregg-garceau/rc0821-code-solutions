@@ -1,0 +1,37 @@
+i {
+  padding-left: 10px;
+}
+
+.pass-label {
+  font-family: 'Zen Old Mincho', serif;
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.pass-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.pass-input {
+  border: 2px solid black;
+  width: 175px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.pass-text {
+  margin-top: 5px;
+  color: #cf2a28;
+}
+
+.fa-times {
+  color: #cf2a28;
+}
+
+.fa-check {
+  color: #6ba859;
+}
