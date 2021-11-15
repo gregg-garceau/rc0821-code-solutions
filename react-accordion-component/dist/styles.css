@@ -1,0 +1,18 @@
+.hidden {
+  display: none;
+}
+
+.topic {
+  background-color: #ddd;
+}
+
+.info,
+.topic {
+  width: 500px;
+  border: 3px solid black;
+  margin: 1px;
+  padding: 10px 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
